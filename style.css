@@ -1,0 +1,56 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.button {
+    font-size: 24px;
+    padding: 15px 30px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #007AFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #005BBB;
+}
+
+.letter-display {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.new-party-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.new-party-button:hover {
+    background-color: #CCCCCC;
+}
